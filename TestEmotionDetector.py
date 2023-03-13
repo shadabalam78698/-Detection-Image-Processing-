@@ -18,9 +18,8 @@ print("Loaded model from disk")
 # start the webcam feed
 cap = cv2.VideoCapture(0)
 
-# pass here your video path
-# you may download one from here : https://www.pexels.com/video/three-girls-laughing-5273028/
-# cap = cv2.VideoCapture("E:\python_01\python_code\faces")
+# If not using live cam pass here your video path and comment live video capturing
+# cap = cv2.VideoCapture("E:\\python_01\\python_code\\faces.mkv")
 
 while True:
     # Find haar cascade to draw bounding box around face
